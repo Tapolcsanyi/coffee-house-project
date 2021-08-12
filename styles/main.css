@@ -1,7 +1,25 @@
 body {
-    background-color:burlywood;
+    background-color: black;
 }
 .content {
-    font-size: 50px;
-    color:crimson
+    flex: 1;
+    font-size: 25px;
+    color: red;
+}
+li {
+    display: inline-block;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li a {
+    padding: 8px;
+    background-color: grey;
+}
+.week {
+    padding: 8px;
+    background-color: silver;
 }
