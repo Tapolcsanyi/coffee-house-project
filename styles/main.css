@@ -1,10 +1,10 @@
 body {
-    background-color: black;
+    background-color: rgb(158, 233, 158);
 }
 .content {
     flex: 1;
     font-size: 25px;
-    color: red;
+    color: black;
 }
 li {
     display: inline-block;
@@ -15,11 +15,33 @@ ul {
     padding: 0;
     overflow: hidden;
 }
-li a {
-    padding: 8px;
-    background-color: grey;
-}
 .week {
     padding: 8px;
-    background-color: silver;
+    background-color: rgb(113, 182, 113);
 }
+.navbar {
+    align-content: center;
+    width: 100%;
+    padding: 10px;
+    background-color:rgb(113, 182, 113);
+}
+.myButton {
+    color: rgb(255, 255, 255); 
+    font-size: 19px; 
+    line-height: 19px; 
+    padding: 9px; 
+    border-radius: 17px; 
+    font-family: Georgia, serif; 
+    font-weight: normal; 
+    text-decoration: none; 
+    font-style: normal; 
+    font-variant: normal; 
+    text-transform: none; 
+    background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 43%, rgb(20, 78, 117) 100%); 
+    box-shadow: rgb(0, 0, 0) 3px 5px 15px 5px; 
+    border: 2px solid rgb(28, 110, 164); 
+    display: inline-block;}
+    .myButton:hover {
+    background: #1C6EA4; }
+    .myButton:active {
+    background: #144E75; }
